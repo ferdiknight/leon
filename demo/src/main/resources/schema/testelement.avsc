@@ -1,0 +1,13 @@
+{
+    "namespace": "com.sodao.leon.demo.typeahead.element",
+    "type": "record",
+    "name": "TestElement",
+    "fields": 
+    [
+        {"name": "name", "type": "string"},
+        {"name": "id",  "type": "int"},
+        {"name": "timestamp", "type": "long"},
+        {"name":"score","type":"float"},
+        {"name":"terms","type":{"type":"array","items":"string"}}
+    ]
+}

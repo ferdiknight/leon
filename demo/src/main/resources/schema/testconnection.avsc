@@ -1,0 +1,13 @@
+{
+    "namespace": "com.sodao.leon.demo.typeahead.connection",
+    "type": "record",
+    "name": "TestConnection",
+    "fields": 
+    [
+        {"name": "source", "type": "int"},
+        {"name": "target",  "type": "int"},
+        {"name": "strength", "type": "int"},
+        {"name":"timestamp","type":"long"},
+        {"name":"isActive","type":"boolean"}
+    ]
+}
