@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.sodao.leon</groupId>
+    <groupId>com.blueferdi.leon</groupId>
     <artifactId>main</artifactId>
     <version>0.1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Leon Main</name>
-    
-    <scm>
-        <connection>scm:svn:https://10.0.10.3:8443/svn/services/leon/trunk/</connection>
-        <url>https://10.0.10.3:8443/svn/services/leon/</url>
-    </scm>
     
     <build>
         <plugins>
@@ -40,25 +35,13 @@
         </pluginRepository>
     </pluginRepositories>
     
-    <distributionManagement>
-        <repository>
-            <id>releases</id>
-            <name>public</name>
-            <url>http://10.0.11.2:8087/nexus/content/repositories/releases</url>
-        </repository>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>snapshots</name>
-            <url>http://10.0.11.2:8087/nexus/content/repositories/snapshots</url>
-        </snapshotRepository>
-    </distributionManagement>
     <modules>
         <module>demo</module>	
         <module>interface_thrift</module>
-    <module>leon-rest</module>
-    <module>leon</module>
-    <module>manage</module>
-  </modules>
+        <module>leon-rest</module>
+        <module>leon</module>
+        <module>manage</module>
+    </modules>
     <repositories>
         <repository>
             <id>maven2-repository.dev.java.net</id>

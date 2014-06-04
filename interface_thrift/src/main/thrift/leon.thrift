@@ -1,4 +1,4 @@
-namespace java com.sodao.leon.typehead.index.construct
+namespace java com.blueferdi.leon.typehead.index.construct
 
 struct TypeaheadElement
 {

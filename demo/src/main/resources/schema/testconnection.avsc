@@ -1,5 +1,5 @@
 {
-    "namespace": "com.sodao.leon.demo.typeahead.connection",
+    "namespace": "com.blueferdi.leon.demo.typeahead.connection",
     "type": "record",
     "name": "TestConnection",
     "fields": 

@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <artifactId>main</artifactId>
-    <groupId>com.sodao.leon</groupId>
+    <groupId>com.blueferdi.leon</groupId>
     <version>0.1.0-SNAPSHOT</version>
   </parent>
 
-  <groupId>com.sodao.leon</groupId>
+  <groupId>com.blueferdi.leon</groupId>
   <artifactId>leon-rest</artifactId>
   <packaging>war</packaging>
   <version>0.1.0-SNAPSHOT</version>

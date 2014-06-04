@@ -1,5 +1,5 @@
 {
-    "namespace": "com.sodao.leon.demo.typeahead.element",
+    "namespace": "com.blueferdi.leon.demo.typeahead.element",
     "type": "record",
     "name": "TestElement",
     "fields": 
